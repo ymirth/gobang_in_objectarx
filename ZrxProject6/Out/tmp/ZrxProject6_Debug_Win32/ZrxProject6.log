@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  rxentrypoint.cpp
+  helloworld.cpp
+  ZrxProject6.cpp
+  Generating Code...
+     Creating library D:\Study_University\Grade_3\3_spring\ZW_Train\Test\ZrxProject6\Out\bin\Debug_Win32\ZrxProject6.lib and object D:\Study_University\Grade_3\3_spring\ZW_Train\Test\ZrxProject6\Out\bin\Debug_Win32\ZrxProject6.exp
+  ZwZrx.lib(ZwZrx.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library D:\Study_University\Grade_3\3_spring\ZW_Train\Test\ZrxProject6\Out\bin\Debug_Win32\ZrxProject6.lib and object D:\Study_University\Grade_3\3_spring\ZW_Train\Test\ZrxProject6\Out\bin\Debug_Win32\ZrxProject6.exp
+helloworld.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall Gomoku_AI::init(void)" (__imp_?init@Gomoku_AI@@QAEXXZ)
+helloworld.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct std::pair<int,int> __thiscall Gomoku_AI::getSteps(int,int)" (__imp_?getSteps@Gomoku_AI@@QAE?AU?$pair@HH@std@@HH@Z)
+D:\Study_University\Grade_3\3_spring\ZW_Train\Test\ZrxProject6\Out\bin\Debug_Win32\ZrxProject6.zrx : fatal error LNK1120: 2 unresolved externals
